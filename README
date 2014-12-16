@@ -1,0 +1,17 @@
+
+Some basic xor related python scripts that I wrote a long time ago.
+
+xor.py:
+    Simply XORs ascii strings given on the command line
+    e.g.
+        ./xor.py "AAA" "123"
+
+xor_files.py:
+    XORs two files together
+    e.g.
+        ./xor_files.py file1.py file2.py
+
+xor_fkey.py:
+    XORs a file with a "key" from the command line
+    e.g. (key = 0x4141419999EE)
+        ./xor_fkey.py test0.bin 41 41 41 99 99 EE
